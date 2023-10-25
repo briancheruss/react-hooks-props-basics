@@ -2,7 +2,11 @@ import React from "react";
 import BlogPost from "./BlogPost";
 
 function App() {
-  return <BlogPost />;
+  return (
+    <div className="App">
+      <BlogPost />
+    </div>
+  );
 }
 
 export default App;
